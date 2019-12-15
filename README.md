@@ -13,14 +13,13 @@ masscan  -p443,36,80,81,82,83,84,85,86,87,88,89,90,311,383,555,591,593,631,801,8
 ==========================================================
 masscan -p80 192.168.0.0/16 -oX result.xml --rate=10000
 ```
-========================================================
-split -l 50000 -d --additional-suffix=.txt ip.txt Pal-        تقسيم الملفات لاعداد اصغر
-
-sort -u ipGOOD.txt > testip.txt    تنظيف المكرر
-
-cat palman.* >>palman.txt   تجميع الكل فى واحد
 
 
+split -l 50000 -d --additional-suffix=.txt ip.txt Pal- تقسيم الملفات لاعداد اصغر
+
+sort -u ipGOOD.txt > testip.txt تنظيف المكرر
+
+cat palman.* >>palman.txt تجميع الكل فى واحد
 
 
 
