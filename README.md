@@ -21,6 +21,9 @@ sort -u ipGOOD.txt > testip.txt تنظيف المكرر
 cat palman.* >>palman.txt تجميع الكل فى واحد
 ```
 
+سحب بورت udp
+masscan -p69,U:1-65535  --rate=100000 -oX result.xml -iL ip.txt   --excludefile exclude.txt
+```
 
 ## Python script:
 After scan, run the script ./parser.py, and you will see output.txt
