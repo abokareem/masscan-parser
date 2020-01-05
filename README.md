@@ -37,3 +37,22 @@ After scan, run the script ./parser.py, and you will see output.txt
 
 ## Output format: 
 `<IP>:<PORT>`
+
+
+
+
+
+<?xml version="1.0"?>
+<!-- masscan v1.0 scan -->
+<nmaprun scanner="masscan" start="1576410226" version="1.0-BETA"  xmloutputversion="1.03">
+<scaninfo type="syn" protocol="tcp" />
+
+
+
+
+
+<runstats>
+<finished time="1576410326" timestr="2019-12-15 06:45:26" elapsed="101" />
+<hosts up="500000" down="0" total="500000" />
+</runstats>
+</nmaprun>
